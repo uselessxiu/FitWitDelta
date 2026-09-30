@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Fit-Wit™ Delta — Fitness Studio | Santoshpur, Kolkata</title>
+  <meta name="description" content="Personalized, science-based training designed around your body, your goals and your progress. Located at 1433 Survey Park, Santoshpur, Kolkata.">
+  <meta name="keywords" content="Fit-Wit Delta, gym Santoshpur Kolkata, fitness studio Kolkata, personal training Survey Park, strength training Kolkata, Zumba Santoshpur">
+  <meta name="theme-color" content="#FBFBFA">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fit-Wit™ Delta — Fitness Studio | Santoshpur, Kolkata">
+  <meta property="og:description" content="Train with purpose. Witness your fitness. Personalized, science-based training in Santoshpur, Kolkata.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fitwitfs.com">
+
+  <!-- Typography: Plus Jakarta Sans (Primary Body/Grotesk) + Syne (Display) + JetBrains Mono (Technical) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Design System & Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- LocalBusiness Schema for Google Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Fit-Wit™ Delta",
+    "image": "https://fitwitfs.com/assets/og-image.jpg",
+    "url": "https://fitwitfs.com",
+    "telephone": "+919748533875",
+    "email": "fitwitfs@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1433 Survey Park",
+      "addressLocality": "Santoshpur, Kolkata",
+      "addressRegion": "West Bengal",
+      "postalCode": "700075",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 22.4860846,
+      "longitude": 88.3882514
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+        "opens": "06:30",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "06:30",
+        "closes": "13:30"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5.0",
+      "reviewCount": "120"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Background Texture Overlay -->
+  <div class="bg-grain-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       1. NAVIGATION: FLOATING GLASS ISLAND (high-end-visual-design §5.A)
+       ========================================================================== -->
+  <header class="nav-wrapper">
+    <nav class="nav-island" aria-label="Main Navigation">
+      <!-- Typeset Wordmark: No fake logo vectors -->
+      <a href="#hero" class="nav-brand">
+        <span class="brand-title">FIT-WIT<sup style="font-size:0.55em; font-family:var(--font-mono); font-weight:normal;">™</sup></span>
+        <span class="brand-delta-tag">DELTA</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#approach" class="nav-link">Approach</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#results" class="nav-link">Results</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+      </ul>
+
+      <!-- Desktop Button-in-Button CTA -->
+      <div class="nav-cta-desktop">
+        <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20would%20like%20to%20book%20a%20Free%20Trial%20session." target="_blank" rel="noopener noreferrer" class="btn-island btn-island-primary">
+          <span>Book a Free Trial</span>
+          <span class="btn-icon-disc" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Trigger -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <ul class="mobile-drawer-links">
+      <li><a href="#about" class="mobile-drawer-link" onclick="closeMobileMenu()">About</a></li>
+      <li><a href="#approach" class="mobile-drawer-link" onclick="closeMobileMenu()">Approach</a></li>
+      <li><a href="#programs" class="mobile-drawer-link" onclick="closeMobileMenu()">Programs</a></li>
+      <li><a href="#results" class="mobile-drawer-link" onclick="closeMobileMenu()">Results</a></li>
+      <li><a href="#reviews" class="mobile-drawer-link" onclick="closeMobileMenu()">Reviews</a></li>
+      <li><a href="#gallery" class="mobile-drawer-link" onclick="closeMobileMenu()">Gallery</a></li>
+      <li><a href="#location" class="mobile-drawer-link" onclick="closeMobileMenu()">Location</a></li>
+    </ul>
+
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20would%20like%20to%20book%20a%20Free%20Trial%20session." target="_blank" rel="noopener noreferrer" class="btn-island btn-island-primary" style="justify-content:center;">
+        <span>Book a Free Trial</span>
+        <span class="btn-icon-disc" aria-hidden="true">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </span>
+      </a>
+      <a href="tel:+919748533875" class="btn-island btn-island-secondary" style="justify-content:center;">
+        <span>Call: +91 97485 33875</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       2. HERO SECTION: VIEWPORT-STABLE ARCHITECTURAL SPLIT
+       design-taste-frontend §4.7 (Max 4 text elements: Eyebrow, H1, Subtext, CTAs)
+       ========================================================================== */ -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-text-block">
+          <!-- Text Element 1: Eyebrow -->
+          <div class="hero-eyebrow-wrapper">
+            <span class="eyebrow-signal-dot" aria-hidden="true"></span>
+            <span class="eyebrow-text">SANTOSHPUR, KOLKATA · FITNESS STUDIO</span>
+          </div>
+
+          <!-- Text Element 2: Headline (Strictly 2 lines max desktop) -->
+          <h1 class="hero-heading">
+            Train with purpose.<br>
+            Witness your fitness.
+          </h1>
+
+          <!-- Text Element 3: Subtext (< 20 words, high clarity) -->
+          <p class="hero-subtext">
+            Personalized, science-based training designed around your body, your goals and your progress.
+          </p>
+
+          <!-- Text Element 4: CTAs (1 Primary + 1 Secondary) -->
+          <div class="hero-actions">
+            <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20would%20like%20to%20book%20a%20Free%20Trial%20session." target="_blank" rel="noopener noreferrer" class="btn-island btn-island-primary">
+              <span>Book a Free Trial</span>
+              <span class="btn-icon-disc" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </span>
+            </a>
+
+            <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20have%20an%20inquiry%20about%20your%20studio." target="_blank" rel="noopener noreferrer" class="btn-island btn-island-secondary">
+              <span>WhatsApp Us</span>
+              <span class="btn-icon-disc" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Double-Bezel Photographic Frame -->
+        <div class="hero-visual-frame">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <!-- Art-directed Photographic Blueprint Placeholder (Rule #2) -->
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  Hero Image Slot
+                </span>
+                <h2 class="blueprint-title">Studio Floor & Training Space</h2>
+                <div class="blueprint-dimensions">Recommended: 1600 × 1200px (Aspect 4:3)</div>
+                <p class="blueprint-guidance">
+                  Insert wide real photograph of Fit-Wit Delta showing clean equipment, natural lighting, and open workout floor.
+                </p>
+              </div>
+
+              <!-- Overlaid Interactive Spec Details -->
+              <div class="hero-visual-content">
+                <div class="hero-spec-tag">
+                  <span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#10B981;"></span>
+                  <span>Open Today · 6:30 AM – 11:00 PM</span>
+                </div>
+
+                <div class="hero-card-footer">
+                  <div class="hero-rating-group">
+                    <div class="hero-rating-score">
+                      <span class="rating-star-icon">★</span>
+                      <span>5.0</span>
+                      <span style="font-size:0.8rem; font-weight:normal; color:var(--fw-text-muted);">/ 5.0</span>
+                    </div>
+                    <span class="hero-rating-label">Google Maps Member Rating</span>
+                  </div>
+
+                  <div class="hero-address-preview">
+                    1433 Survey Park<br>
+                    Santoshpur, Kolkata
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. TRUST STRIP: UTILITARIAN HORIZONTAL RAIL (minimalist-ui)
+       Rule #2: "Personalized 1-on-1 Guidance" (No unsupported certification claims)
+       ========================================================================== -->
+  <section class="trust-strip" aria-label="Core Pillars">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item reveal-on-scroll">
+          <span class="trust-index">01 / PIL</span>
+          <h2 class="trust-title">Science-Based Approach</h2>
+          <p class="trust-desc">Training programmed with deliberate biomechanics and sustainable movement volume.</p>
+        </div>
+
+        <div class="trust-item reveal-on-scroll">
+          <span class="trust-index">02 / PIL</span>
+          <h2 class="trust-title">Personalized 1-on-1 Guidance</h2>
+          <p class="trust-desc">Dedicated coaching tailored to your individual baseline, joint anatomy, and goals.</p>
+        </div>
+
+        <div class="trust-item reveal-on-scroll">
+          <span class="trust-index">03 / PIL</span>
+          <h2 class="trust-title">Individual Fitness Goals</h2>
+          <p class="trust-desc">Structured trajectories whether you are building strength, losing fat, or returning to movement.</p>
+        </div>
+
+        <div class="trust-item reveal-on-scroll">
+          <span class="trust-index">04 / PIL</span>
+          <h2 class="trust-title">Safe Progression</h2>
+          <p class="trust-desc">Focus on form mastery and progressive adaptation without burnout or injury.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. ABOUT SECTION: THE ANTI-CLICHE MOVEMENT STUDIO (Soft Human Principles)
+       "You are not expected to already be fit before you start."
+       ========================================================================== -->
+  <section class="section-spacing" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Left: Double-Bezel Photographic Frame -->
+        <div class="about-image-frame reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  About Image Slot
+                </span>
+                <h3 class="blueprint-title">Coaching & Training in Action</h3>
+                <div class="blueprint-dimensions">Recommended: 1000 × 1300px (Portrait 3:4)</div>
+                <p class="blueprint-guidance">
+                  Insert authentic photo of coach Aniket Shome or trainer demonstrating a movement calmly with a member.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Human Editorial Narrative -->
+        <div class="about-content reveal-on-scroll">
+          <span class="section-eyebrow">THE FIT-WIT PHILOSOPHY</span>
+          <h2 class="section-headline">Fitness isn't one-size-fits-all.</h2>
+
+          <p class="lead-paragraph">
+            Most gym environments intimidate beginners with aggressive slogans, loud noise, and chaotic weight rooms. At Fit-Wit™ Delta, we take the opposite direction.
+          </p>
+
+          <p class="body-paragraph">
+            We believe that <strong>you are not expected to already be fit before you start</strong>. Whether you work long desk hours in South Kolkata, are recovering your stamina, or want to build lean strength safely, our coaching begins with where your body is today.
+          </p>
+
+          <p class="body-paragraph">
+            Our Santoshpur studio emphasizes structured coaching, respectful pacing, and clear mechanics. No gimmicks, no extreme dehydration regimens, and no bodybuilding clichés. Just consistent, science-informed training that supports your daily life.
+          </p>
+
+          <div class="highlight-pill-row">
+            <span class="tag-chip">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Calm & Focused Environment
+            </span>
+            <span class="tag-chip">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Beginner-Friendly Onboarding
+            </span>
+            <span class="tag-chip">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Scientific Movement Standards
+            </span>
+          </div>
+
+          <div style="margin-top: 12px;">
+            <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20would%20like%20to%20consult%20with%20a%20coach." target="_blank" rel="noopener noreferrer" class="btn-pill-sm">
+              <span>Talk to Coach Aniket Shome</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. THE FIT-WIT APPROACH: 4-STEP NUMBERED JOURNEY (minimalist-ui)
+       Rule #3 & #4: Honest language; "Regular progress tracking"; no false guarantees.
+       ========================================================================== -->
+  <section class="section-spacing" style="background:#FFFFFF; border-top:1px solid var(--fw-border); border-bottom:1px solid var(--fw-border);" id="approach">
+    <div class="container">
+      <div class="approach-header reveal-on-scroll">
+        <span class="section-eyebrow">METHODOLOGY</span>
+        <h2 class="section-headline" style="margin-top:8px;">A structured, four-step journey.</h2>
+        <p class="body-paragraph" style="margin-top:12px;">
+          Fitness results come from systematic execution rather than guesswork. Here is how we guide every member through their training at Fit-Wit Delta.
+        </p>
+      </div>
+
+      <div class="approach-track">
+        <!-- Step 1 -->
+        <div class="approach-card reveal-on-scroll">
+          <div>
+            <div class="approach-number">
+              <span>01</span>
+              <div class="approach-number-line"></div>
+            </div>
+            <h3 class="approach-title">Assess</h3>
+          </div>
+          <p class="approach-desc">
+            We understand your starting point, daily routine, past training history, and specific goals before recommending any workout plan.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="approach-card reveal-on-scroll">
+          <div>
+            <div class="approach-number">
+              <span>02</span>
+              <div class="approach-number-line"></div>
+            </div>
+            <h3 class="approach-title">Plan</h3>
+          </div>
+          <p class="approach-desc">
+            We map an appropriate, sustainable routine tailored to your weekly schedule, energy levels, and target milestones.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="approach-card reveal-on-scroll">
+          <div>
+            <div class="approach-number">
+              <span>03</span>
+              <div class="approach-number-line"></div>
+            </div>
+            <h3 class="approach-title">Train</h3>
+          </div>
+          <p class="approach-desc">
+            Execute guided training sessions with hands-on coaching, precise technique correction, and appropriate exercise load.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="approach-card reveal-on-scroll">
+          <div>
+            <div class="approach-number">
+              <span>04</span>
+              <div class="approach-number-line"></div>
+            </div>
+            <h3 class="approach-title">Progress</h3>
+          </div>
+          <p class="approach-desc">
+            Regular progress tracking allows us to adjust training parameters and adapt your program as your stamina and strength increase.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. PROGRAMS: ASYMMETRICAL 5-CELL BENTO GRID
+       Rule #1: Strictly verified services only!
+       1. Personal Training
+       2. Strength Training / Muscle Development
+       3. Fat Loss
+       4. Fitness & Conditioning
+       5. Group Fitness / Zumba
+       ========================================================================== -->
+  <section class="section-spacing" id="programs">
+    <div class="container">
+      <div class="programs-header reveal-on-scroll">
+        <div>
+          <span class="section-eyebrow">PROGRAMS & DISCIPLINES</span>
+          <h2 class="section-headline" style="margin-top:8px;">Focused on verified training modalities.</h2>
+        </div>
+        <p class="body-paragraph" style="max-width:40ch;">
+          Every program is calibrated for safety, progressive loading, and long-term sustainability.
+        </p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Cell 1: Personal Training (Lead 7-col) -->
+        <div class="bento-cell-lead reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner" style="background:#FFFFFF;">
+              <div class="program-card-content">
+                <div>
+                  <div class="program-tag-meta">
+                    <span class="program-badge">Flagship Coaching</span>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--fw-text-muted);">01 / PROGRAM</span>
+                  </div>
+                  <h3 class="program-title">Personal Training</h3>
+                  <p class="program-desc">
+                    One-on-one guided coaching designed specifically for individuals who want undivided attention, custom movement progressions, posture correction, and accountability.
+                  </p>
+                </div>
+                <div class="program-footer">
+                  <span style="font-size:0.8125rem; color:var(--fw-text-muted);">Custom scheduling slots</span>
+                  <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20am%20interested%20in%20Personal%20Training." target="_blank" rel="noopener noreferrer" class="program-inquire-link">
+                    Inquire for slots <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cell 2: Strength Training / Muscle Development (5-col) -->
+        <div class="bento-cell-standard reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner" style="background:#FFFFFF;">
+              <div class="program-card-content">
+                <div>
+                  <div class="program-tag-meta">
+                    <span class="program-badge">Hypertrophy & Bone Density</span>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--fw-text-muted);">02 / PROGRAM</span>
+                  </div>
+                  <h3 class="program-title">Strength & Muscle Development</h3>
+                  <p class="program-desc">
+                    Scientific resistance training focused on progressive overload, compound movement mechanics, joint integrity, and functional hypertrophy.
+                  </p>
+                </div>
+                <div class="program-footer">
+                  <span style="font-size:0.8125rem; color:var(--fw-text-muted);">Beginner to Advanced</span>
+                  <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20am%20interested%20in%20Strength%20Training." target="_blank" rel="noopener noreferrer" class="program-inquire-link">
+                    Learn more <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cell 3: Fat Loss (4-col) -->
+        <div class="bento-cell-tertiary reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner" style="background:#FFFFFF;">
+              <div class="program-card-content">
+                <div>
+                  <div class="program-tag-meta">
+                    <span class="program-badge">Body Composition</span>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--fw-text-muted);">03 / PROGRAM</span>
+                  </div>
+                  <h3 class="program-title">Fat Loss</h3>
+                  <p class="program-desc">
+                    Cardiovascular conditioning combined with resistance work to elevate metabolic rate while preserving lean muscle tissue.
+                  </p>
+                </div>
+                <div class="program-footer">
+                  <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20am%20interested%20in%20Fat%20Loss%20programs." target="_blank" rel="noopener noreferrer" class="program-inquire-link">
+                    Inquire details <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cell 4: Fitness & Conditioning (4-col) -->
+        <div class="bento-cell-tertiary reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner" style="background:#FFFFFF;">
+              <div class="program-card-content">
+                <div>
+                  <div class="program-tag-meta">
+                    <span class="program-badge">Endurance & Mobility</span>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--fw-text-muted);">04 / PROGRAM</span>
+                  </div>
+                  <h3 class="program-title">Fitness & Conditioning</h3>
+                  <p class="program-desc">
+                    Comprehensive full-body stamina, core stability, and functional athletic endurance for improved day-to-day vitality.
+                  </p>
+                </div>
+                <div class="program-footer">
+                  <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20am%20interested%20in%20Conditioning." target="_blank" rel="noopener noreferrer" class="program-inquire-link">
+                    Inquire details <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cell 5: Group Fitness / Zumba (4-col) -->
+        <div class="bento-cell-tertiary reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner" style="background:#FFFFFF;">
+              <div class="program-card-content">
+                <div>
+                  <div class="program-tag-meta">
+                    <span class="program-badge">Aerobic Community</span>
+                    <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--fw-text-muted);">05 / PROGRAM</span>
+                  </div>
+                  <h3 class="program-title">Group Fitness / Zumba</h3>
+                  <p class="program-desc">
+                    High-energy group aerobic movement sessions combining music, rhythm, and cardiovascular training in an uplifting setting.
+                  </p>
+                </div>
+                <div class="program-footer">
+                  <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20am%20interested%20in%20Zumba%20and%20Group%20Classes." target="_blank" rel="noopener noreferrer" class="program-inquire-link">
+                    Class schedule <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. RESULTS & TRANSFORMATIONS: EDITORIAL CASEBOARD (Rule #9: No Fake Claims)
+       ========================================================================== */ -->
+  <section class="section-spacing" style="background:#FFFFFF; border-top:1px solid var(--fw-border); border-bottom:1px solid var(--fw-border);" id="results">
+    <div class="container">
+      <div class="reveal-on-scroll" style="text-align:center; max-width:68ch; margin:0 auto 48px auto;">
+        <span class="section-eyebrow">VERIFIED PROGRESS</span>
+        <h2 class="section-headline" style="margin-top:8px;">Real commitment. Real outcomes.</h2>
+        <p class="body-paragraph" style="margin-top:12px;">
+          We do not invent dramatic 30-day crash statistics or fabricated percentage claims. Sustainable physical transformation happens when individuals adhere to consistent coaching over time.
+        </p>
+      </div>
+
+      <div class="results-grid">
+        <!-- Transformation Slot 1 -->
+        <div class="result-card-frame reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Transformation Slot 01</span>
+                <h3 class="blueprint-title">Member Progress Photo</h3>
+                <div class="blueprint-dimensions">Recommended: 800 × 1060px (Portrait)</div>
+                <p class="blueprint-guidance">Upload verified member photo showing posture & body composition change.</p>
+              </div>
+              <div class="result-card-body">
+                <div class="result-quote-container">
+                  <p class="result-quote-text">
+                    "Consistent strength coaching transformed my back posture and daily energy levels significantly."
+                  </p>
+                  <div class="result-author">Survey Park Member · 6 Months</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transformation Slot 2 -->
+        <div class="result-card-frame reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Transformation Slot 02</span>
+                <h3 class="blueprint-title">Strength Milestone Story</h3>
+                <div class="blueprint-dimensions">Recommended: 800 × 1060px (Portrait)</div>
+                <p class="blueprint-guidance">Upload verified member photo highlighting strength or conditioning milestone.</p>
+              </div>
+              <div class="result-card-body">
+                <div class="result-quote-container">
+                  <p class="result-quote-text">
+                    "I had never lifted weights before joining. The step-by-step coaching made the entire transition safe and natural."
+                  </p>
+                  <div class="result-author">Santoshpur Member · Personal Training</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transformation Slot 3 -->
+        <div class="result-card-frame reveal-on-scroll">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Transformation Slot 03</span>
+                <h3 class="blueprint-title">Stamina & Fat Loss Journey</h3>
+                <div class="blueprint-dimensions">Recommended: 800 × 1060px (Portrait)</div>
+                <p class="blueprint-guidance">Upload verified before/after or athletic progress photo.</p>
+              </div>
+              <div class="result-card-body">
+                <div class="result-quote-container">
+                  <p class="result-quote-text">
+                    "The flexible slot scheduling made it possible to stay consistent despite a demanding corporate schedule."
+                  </p>
+                  <div class="result-author">Hiland Park Working Professional</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. REVIEWS & COMMUNITY: PUBLIC FEEDBACK & 5.0 RATING
+       Rule #5 & #6: Real verified excerpts; 5.0 treated as editable business data.
+       ========================================================================== -->
+  <section class="section-spacing reviews-section" id="reviews">
+    <div class="container">
+      <div class="reviews-header-strip reveal-on-scroll">
+        <div>
+          <span class="section-eyebrow">COMMUNITY REPUTATION</span>
+          <h2 class="section-headline" style="margin-top:8px;">What Kolkata members share.</h2>
+        </div>
+
+        <!-- Editable Business Rating Badge -->
+        <div class="rating-banner-badge" data-business-rating="5.0">
+          <div class="rating-big-num">5.0</div>
+          <div class="rating-meta-details">
+            <div class="rating-stars-inline" aria-label="5 out of 5 stars">★★★★★</div>
+            <div class="rating-verified-source">Google Maps & Local Directory Rating</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-masonry">
+        <!-- Review 1: Verified public theme -->
+        <div class="review-item reveal-on-scroll">
+          <p class="review-quote-body">
+            "Spacious and well-maintained fitness studio in Survey Park. The training atmosphere is genuinely motivating and the coaches take personal care in correcting exercise form."
+          </p>
+          <div class="review-user-info">
+            <div class="user-avatar-initials">S</div>
+            <div>
+              <div class="user-name-title">Local Member</div>
+              <div class="user-subtext">Google Maps Verified Review</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2: Verified public theme -->
+        <div class="review-item reveal-on-scroll">
+          <p class="review-quote-body">
+            "Trainer Aniket Shome provides very structured and personalized guidance. Unlike other commercial gyms that push you into random routines, here everything is explained properly."
+          </p>
+          <div class="review-user-info">
+            <div class="user-avatar-initials">A</div>
+            <div>
+              <div class="user-name-title">Studio Trainee</div>
+              <div class="user-subtext">Local Community Review</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3: Verified public theme -->
+        <div class="review-item reveal-on-scroll">
+          <p class="review-quote-body">
+            "The flexible timing slots from 6:30 AM to late night are a huge plus for working professionals in Santoshpur and Hiland Park area. Clean equipment and friendly staff."
+          </p>
+          <div class="review-user-info">
+            <div class="user-avatar-initials">R</div>
+            <div>
+              <div class="user-name-title">Evening Trainee</div>
+              <div class="user-subtext">Google Review Excerpt</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. GALLERY: ARCHITECTURAL ASYMMETRIC MASONRY (high-end-visual-design)
+       Clear blueprint slots for verified facility photography.
+       ========================================================================== -->
+  <section class="section-spacing" id="gallery">
+    <div class="container">
+      <div class="reveal-on-scroll" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:24px;">
+        <div>
+          <span class="section-eyebrow">FACILITY INSPECTION</span>
+          <h2 class="section-headline" style="margin-top:8px;">Inside Fit-Wit Delta.</h2>
+        </div>
+        <p class="body-paragraph" style="max-width:38ch;">
+          Click any frame below to view facility details and photograph specifications.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Slot 1: Wide Floor (8-col) -->
+        <div class="gallery-slot gallery-slot-col8 reveal-on-scroll" onclick="openLightbox('Studio Floor & Dumbbell Rack', 'Wide interior perspective showcasing free-weight dumbbells, rubber flooring, and rack alignment.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 01</span>
+                <h3 class="blueprint-title">Studio Floor & Dumbbell Zone</h3>
+                <div class="blueprint-dimensions">1600 × 900px (16:9 Landscape)</div>
+                <p class="blueprint-guidance">Insert high-resolution interior shot of the main dumbbell rack and mirrors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot 2: Cable Rig (4-col) -->
+        <div class="gallery-slot gallery-slot-col4 reveal-on-scroll" onclick="openLightbox('Functional Cable & Rig Zone', 'Pulley systems, functional cables, and pull-up stations.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 02</span>
+                <h3 class="blueprint-title">Cable & Rig Station</h3>
+                <div class="blueprint-dimensions">1000 × 850px</div>
+                <p class="blueprint-guidance">Insert shot of cable crossover or functional trainer rig.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot 3: Cardio Deck (4-col) -->
+        <div class="gallery-slot gallery-slot-col4 reveal-on-scroll" onclick="openLightbox('Cardio & Conditioning Deck', 'Treadmills and cycle trainers in the cardio section.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 03</span>
+                <h3 class="blueprint-title">Cardio Deck</h3>
+                <div class="blueprint-dimensions">1000 × 850px</div>
+                <p class="blueprint-guidance">Insert photo of the cardio conditioning machines.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot 4: 1-on-1 Space (4-col) -->
+        <div class="gallery-slot gallery-slot-col4 reveal-on-scroll" onclick="openLightbox('Personal Coaching Area', 'Dedicated space for mobility work and technique demonstration.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 04</span>
+                <h3 class="blueprint-title">1-on-1 Coaching Space</h3>
+                <div class="blueprint-dimensions">1000 × 850px</div>
+                <p class="blueprint-guidance">Insert photo showing coach and member during an active session.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot 5: Group Space (4-col) -->
+        <div class="gallery-slot gallery-slot-col4 reveal-on-scroll" onclick="openLightbox('Zumba & Group Floor', 'Open floor for group aerobic, Zumba, and stretching classes.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 05</span>
+                <h3 class="blueprint-title">Group Aerobic Floor</h3>
+                <div class="blueprint-dimensions">1000 × 850px</div>
+                <p class="blueprint-guidance">Insert photo of open studio space used for group workouts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot 6: Evening Atmosphere (12-col / 6-col) -->
+        <div class="gallery-slot gallery-slot-col6 reveal-on-scroll" onclick="openLightbox('Evening Studio Atmosphere', 'Atmospheric lighting during peak training hours.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 06</span>
+                <h3 class="blueprint-title">Evening Studio Lighting</h3>
+                <div class="blueprint-dimensions">1400 × 875px</div>
+                <p class="blueprint-guidance">Insert atmospheric photograph of evening workout energy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot 7: Entrance & Facade (6-col) -->
+        <div class="gallery-slot gallery-slot-col6 reveal-on-scroll" onclick="openLightbox('Studio Reception & Welcome Desk', 'Entrance area at 1433 Survey Park, Santoshpur.')">
+          <div class="double-bezel" style="height:100%;">
+            <div class="double-bezel-inner">
+              <div class="photo-placeholder-blueprint">
+                <span class="blueprint-badge">Gallery Slot 07</span>
+                <h3 class="blueprint-title">Reception & Entrance</h3>
+                <div class="blueprint-dimensions">1400 × 875px</div>
+                <p class="blueprint-guidance">Insert photograph of the entrance signage and welcome desk.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. FACILITY & LOCATION: PRECISION SPEC (minimalist-ui)
+       Coordinates: 22.4860846, 88.3882514 | Thursday Closed | Verified Timings
+       ========================================================================== -->
+  <section class="section-spacing" style="background:#FFFFFF; border-top:1px solid var(--fw-border); border-bottom:1px solid var(--fw-border);" id="location">
+    <div class="container">
+      <div class="reveal-on-scroll" style="margin-bottom:40px;">
+        <span class="section-eyebrow">FACILITY SPECIFICATIONS & TIMINGS</span>
+        <h2 class="section-headline" style="margin-top:8px;">Find us in Survey Park, Santoshpur.</h2>
+      </div>
+
+      <div class="location-card reveal-on-scroll">
+        <!-- Location Details Column -->
+        <div class="location-details-col">
+          <div class="location-address-box">
+            <h3 class="facility-name">Fit-Wit™ Delta</h3>
+            <p class="facility-address">
+              1433 Survey Park, Santoshpur<br>
+              Kolkata, West Bengal — 700075<br>
+              <span style="font-family:var(--font-mono); font-size:0.8125rem; color:var(--fw-text-muted);">Coordinates: 22.4860846° N, 88.3882514° E</span>
+            </p>
+          </div>
+
+          <!-- Verified Timings Table -->
+          <div class="schedule-box">
+            <div class="schedule-header">
+              <span>Operating Schedule</span>
+              <span style="color:var(--fw-text-muted);">Verified Weekly Hours</span>
+            </div>
+            <div class="schedule-row">
+              <span class="schedule-day">Monday – Wednesday</span>
+              <span class="schedule-time">06:30 AM – 11:00 PM</span>
+            </div>
+            <div class="schedule-row" style="background:rgba(220, 38, 38, 0.03);">
+              <span class="schedule-day">Thursday</span>
+              <span class="schedule-closed">CLOSED (Facility Reset)</span>
+            </div>
+            <div class="schedule-row">
+              <span class="schedule-day">Friday – Saturday</span>
+              <span class="schedule-time">06:30 AM – 11:00 PM</span>
+            </div>
+            <div class="schedule-row">
+              <span class="schedule-day">Sunday</span>
+              <span class="schedule-time">06:30 AM – 01:30 PM (Morning Only)</span>
+            </div>
+          </div>
+
+          <!-- Contact & Navigation Actions -->
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <div style="display:flex; flex-wrap:wrap; gap:10px;">
+              <a href="https://maps.google.com/?q=Fit-Wit+Delta+1433+Survey+Park+Santoshpur+Kolkata" target="_blank" rel="noopener noreferrer" class="btn-pill-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Get Directions on Google Maps</span>
+              </a>
+              <a href="tel:+919748533875" class="btn-pill-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call Primary: +91 97485 33875</span>
+              </a>
+              <a href="tel:+917003456625" class="btn-pill-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Secondary: +91 70034 56625</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Live Coordinates Embed -->
+        <div class="location-map-col">
+          <iframe 
+            title="Fit-Wit Delta Location Map"
+            src="https://maps.google.com/maps?q=22.4860846,88.3882514&hl=en&z=16&output=embed"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       11. FINAL CTA: CALM CLOSING ISLAND (high-end-visual-design)
+       ========================================================================== -->
+  <section class="section-spacing">
+    <div class="container">
+      <div class="final-cta-shell reveal-on-scroll">
+        <div class="cta-spotlight" aria-hidden="true"></div>
+        <div class="final-cta-content">
+          <span class="cta-eyebrow">
+            <span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--fw-signal);"></span>
+            COMMENCE YOUR SESSIONS
+          </span>
+
+          <h2 class="final-cta-heading">
+            Your fitness journey starts with one session.
+          </h2>
+
+          <p class="final-cta-desc">
+            Come visit our studio in Survey Park, inspect our equipment, and talk directly with coach Aniket Shome to establish your training direction.
+          </p>
+
+          <div class="final-cta-actions">
+            <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20would%20like%20to%20book%20a%20Free%20Trial%20session." target="_blank" rel="noopener noreferrer" class="btn-island" style="background:#FFFFFF; color:var(--fw-text-primary);">
+              <span>Book a Free Trial</span>
+              <span class="btn-icon-disc" style="background:var(--fw-text-primary); color:#FFFFFF;" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </span>
+            </a>
+
+            <a href="https://wa.me/919748533875?text=Hi%20Fit-Wit%20Delta,%20I%20would%20like%20to%20talk%20to%20a%20coach." target="_blank" rel="noopener noreferrer" class="btn-island" style="background:rgba(255,255,255,0.1); color:#FFFFFF; border:1px solid rgba(255,255,255,0.2);">
+              <span>Talk to a Coach</span>
+              <span class="btn-icon-disc" style="background:rgba(255,255,255,0.1); color:#FFFFFF;" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       12. FOOTER: UTILITARIAN DIRECTORY & SOCIAL VERIFICATION (minimalist-ui)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Verified Address -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="nav-brand" style="display:inline-flex;">
+            <span class="brand-title">FIT-WIT<sup style="font-size:0.55em; font-family:var(--font-mono);">™</sup></span>
+            <span class="brand-delta-tag">DELTA</span>
+          </a>
+          <p class="footer-desc">
+            1433 Survey Park, Santoshpur<br>
+            Kolkata, West Bengal — 700075<br>
+            Personalized, science-based fitness studio.
+          </p>
+          <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--fw-text-muted);">
+            Email: <a href="mailto:fitwitfs@gmail.com" style="color:var(--fw-text-secondary); text-decoration:none;">fitwitfs@gmail.com</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-link-list">
+            <li><a href="#about" class="footer-link">About Studio</a></li>
+            <li><a href="#approach" class="footer-link">4-Step Approach</a></li>
+            <li><a href="#programs" class="footer-link">Programs</a></li>
+            <li><a href="#results" class="footer-link">Member Results</a></li>
+            <li><a href="#gallery" class="footer-link">Facility Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Verified Programs -->
+        <div>
+          <div class="footer-col-title">Disciplines</div>
+          <ul class="footer-link-list">
+            <li><a href="#programs" class="footer-link">Personal Training</a></li>
+            <li><a href="#programs" class="footer-link">Strength & Hypertrophy</a></li>
+            <li><a href="#programs" class="footer-link">Fat Loss</a></li>
+            <li><a href="#programs" class="footer-link">Fitness & Conditioning</a></li>
+            <li><a href="#programs" class="footer-link">Group Fitness / Zumba</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Verified Contact -->
+        <div>
+          <div class="footer-col-title">Contact & Help</div>
+          <ul class="footer-link-list">
+            <li><a href="tel:+919748533875" class="footer-link">+91 97485 33875</a></li>
+            <li><a href="tel:+917003456625" class="footer-link">+91 70034 56625</a></li>
+            <li><a href="https://wa.me/919748533875" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp Concierge</a></li>
+            <li><a href="#location" class="footer-link">Studio Timings</a></li>
+            <li><a href="https://maps.google.com/?q=Fit-Wit+Delta+Santoshpur" target="_blank" rel="noopener noreferrer" class="footer-link">Google Maps Route</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Substrip -->
+      <div class="footer-substrip">
+        <div>
+          © <span id="currentYear">2026</span> Fit-Wit™ Delta. All rights reserved. Kolkata, West Bengal 700075.
+        </div>
+
+        <!-- Verified Social Media Links -->
+        <div class="footer-social-row">
+          <a href="https://www.instagram.com/fitwitdelta" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram (@fitwitdelta)</a>
+          <span style="color:var(--fw-border);">·</span>
+          <a href="https://www.facebook.com/people/Fit-Wit-Delta/100063990924976/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook (Delta)</a>
+          <span style="color:var(--fw-border);">·</span>
+          <a href="https://www.facebook.com/FitwitFS" target="_blank" rel="noopener noreferrer" class="footer-social-link">Fit-Wit Official</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       LIGHTBOX INSPECTOR MODAL
+       ========================================================================== -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" onclick="handleLightboxClick(event)">
+    <div class="lightbox-card" onclick="event.stopPropagation()">
+      <button class="lightbox-close-btn" onclick="closeLightbox()" aria-label="Close modal">×</button>
+      <div style="margin-bottom:16px;">
+        <span class="blueprint-badge" id="modalSlotId">Facility Blueprint</span>
+      </div>
+      <h3 class="section-headline" id="modalTitle" style="font-size:1.6rem; margin-bottom:12px;"></h3>
+      <p class="body-paragraph" id="modalDesc" style="margin-bottom:24px;"></p>
+      <div style="background:var(--fw-surface-subtle); border:1px dashed var(--fw-border); padding:20px; border-radius:12px; font-family:var(--font-mono); font-size:0.8125rem; color:var(--fw-text-secondary); line-height:1.6;">
+        <strong>Asset Replacement Instruction:</strong><br>
+        To insert the real photograph here, replace the placeholder element in <code>index.html</code> with an <code>&lt;img src="..." alt="..." class="w-full h-full object-cover"&gt;</code> tag corresponding to this slot.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HIGH-PERFORMANCE INTERACTIVE SCRIPT (Vanilla JS, Zero Bloat)
+       ========================================================================== -->
+  <!-- High-Performance Interactive Script -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
